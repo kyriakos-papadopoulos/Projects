@@ -2,19 +2,19 @@
 Author: Kyriakos Papadopoulos
 
 ### Introduction
-This my private repository that contains my daily exercises and projects completed during the [Name of the Bootcamp] on **GitLab**. Each folder represents a day or module in the bootcamp, and inside you'll find the exercises along with my code solutions and notes.
+This my personal repository where i publish my Data Science projects. The projects in this repository are meant to showcase my progress through my Data Science journey. For more information about me, feel free look at my LinkedIn page.
 
 ### Repository Structure
 This repository is organized as follows:
 
-- `Folder1/`: Exercises for Module 1 (Python for Data Science)
-- `Folder2/`: Exercises for Module 2 (Databases & SQL)
-- `Folder3/`: Exercises for Module 3 (Exploratory Data Analysis)
-- `...` (and so on)
+- README.md
+- .gitignore.txt
+- `Project1/`: none yet :(
+- 
 
 ### How to Navigate
-- For each module, navigate to the corresponding folder.
-- Inside each module's folder, you will find the daily exercises and my solutions.
+- Each project is organised within its pwn folder.
+- Inside each project's folder you will find the project's documentation and data.
 
 ### Technologies Used
 - **Python**: For scripting and running data analysis tasks.
@@ -22,10 +22,3 @@ This repository is organized as follows:
 - **Pandas**: For data manipulation and analysis.
 - **SQL**: For data acquisition.
 - (List any other technologies, libraries, or frameworks used.)
-
-### Acknowledgements
-I would like to thank the instructors for their support and guidance throughout the bootcamp.
-
-### Disclaimer
-This is a private repository as part of the learning process of Git tool at Big Blue Academy. 
-**This repository or any part of this content should never be shared publicly on GitHub!**
