@@ -13,7 +13,7 @@ This repository is organized as follows:
 - 
 
 ### How to Navigate
-- Each project is organised within its pwn folder.
+- Each project is organised within its own folder.
 - Inside each project's folder you will find the project's documentation and data.
 
 ### Technologies Used
