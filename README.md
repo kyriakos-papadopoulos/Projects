@@ -9,7 +9,8 @@ This repository is organized as follows:
 
 - README.md
 - .gitignore.txt
-- `Project1/`: none yet :(
+- `Tic-Tac-Toe`: This project is inspired by the Game Theory Club that I founded at university and aims to simulate the game of Tic-Tac-Toe while analyse all its possibe variations.
+- `UTM Link Generator`: This quick project can to be for practical reasons as some of my less tech-savy coleagues were having trouble understanding and creting link with UTM parameters to include in our advertising campaigns.
 - 
 
 ### How to Navigate
