@@ -1,25 +1,25 @@
-## Exercises Repository
+## Project Repository
 Author: Kyriakos Papadopoulos
 
 ### Introduction
-This my personal repository where I publish my Data Science related projects. The projects in this repository are meant to showcase my progress through my Data Science journey. For more information about me, feel free look at my LinkedIn page.
+This is my personal repository where I publish my Data Science related projects. The projects in this repository are meant to showcase my progress through my Data Science journey. For more information about me, feel free to look at my LinkedIn profile.
 
 ### Repository Structure
 This repository is organized as follows:
 
 - README.md
 - .gitignore.txt
-- `UTM Link Generator`: This project was initiated to address practical challenges faced by some of my less tech-savvy colleagues who were struggling to understand and create links with UTM parameters for our advertising campaigns. The program was originally written in Python and later converted to Java using ChatGPT, allowing it to be compiled into an executable file for ease of use.
+- `UTM Link Generator`: This project was initiated to address practical challenges faced by some of my less tech-savvy colleagues who were struggling to understand and create links with UTM parameters for our advertising campaigns.
 - `Data_Science_Bootcamp`: This folder is dedicated to projects undertaken as part of Big Blue Data Academy's Data Science Bootcamp.
- - `Interactive Dashboard project`: Utilizing a dataset comprising patient data, including risk factors and lung cancer diagnoses, my team conducted an analysis to examine the relationship between these factors and lung cancer outcomes.
-  - `my_dash_app`:  This app is an interactive dashboard created with Plotly and Dash for use in the interactive dashboard project. I uploaded it here in attempt to  host it online and integrate it as a custom HTML element in our final Power BI dashboard.
- - `Clustering Project`: Using a dataset containing audio features for the top 2,000 songs on Spotify, our team sought to identify patterns and group similar songs to inform marketing strategies, optimize playlist curation, and enhance audience engagement.
-  - `EDA.ipynb`: Jupyter notebook containing the exploratory data analysis performed on the dataset.
-  - `Data-Driven Insights for Music Personalization.pptx`: Final version of our presentation.
+  - `Interactive Dashboard project`: Utilizing a dataset comprising patient data, including risk factors and lung cancer diagnoses, my team conducted an analysis to examine the relationship between these factors and lung cancer outcomes.
+    - `my_dash_app`: This app is an interactive dashboard created with Plotly and Dash for use in the interactive dashboard project. I uploaded it here in an attempt to host it online and integrate it as a custom HTML element in our final presentation.
+  - `Clustering Project`: Using a dataset containing audio features for the top 2,000 songs on Spotify, our team sought to identify patterns and group similar songs to inform marketing strategies, optimize playlist curation, and enhance audience engagement.
+    - `EDA.ipynb`: Jupyter notebook containing the exploratory data analysis performed on the dataset.
+    - `Data-Driven Insights for Music Personalization.pptx`: Final version of our presentation.
 
 ### How to Navigate
-- Each project is organised within its own folder.
-- Inside each project's folder you will find the project's documentation and data.
+- Each project is organized within its own folder.
+- Inside each project's folder, you will find the project's documentation and data.
 
 ### Technologies Used
 - **Jupyter Notebooks**: For interactive data analysis and visualization.
@@ -42,4 +42,3 @@ This repository is organized as follows:
   - **Threading**: For managing concurrent execution of tasks.
   - **Webbrowser**: For opening web browsers and automating tasks involving web content.
 - **SQL**: For data acquisition.
-- 
