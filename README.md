@@ -9,17 +9,37 @@ This repository is organized as follows:
 
 - README.md
 - .gitignore.txt
-- `Tic-Tac-Toe`: This project is inspired by the Game Theory Club I founded at university and aims to simulate the game of Tic-Tac-Toe while analyzing all its possible variations..
 - `UTM Link Generator`: This project was initiated to address practical challenges faced by some of my less tech-savvy colleagues who were struggling to understand and create links with UTM parameters for our advertising campaigns. The program was originally written in Python and later converted to Java using ChatGPT, allowing it to be compiled into an executable file for ease of use.
-- `my_dash_app`:  This app is an interactive dashboard created with Plotly and Dash for use in a Power BI project, developed as part of a Data Science Bootcamp by Big Blue Data Academy. I uploaded it here to host it online and integrate it as a custom HTML element in Power BI. 
+- `Data_Science_Bootcamp`: This folder is dedicated to projects undertaken as part of Big Blue Data Academy's Data Science Bootcamp.
+ - `Interactive Dashboard project`: Utilizing a dataset comprising patient data, including risk factors and lung cancer diagnoses, my team conducted an analysis to examine the relationship between these factors and lung cancer outcomes.
+  - `my_dash_app`:  This app is an interactive dashboard created with Plotly and Dash for use in the interactive dashboard project. I uploaded it here in attempt to  host it online and integrate it as a custom HTML element in our final Power BI dashboard.
+ - `Clustering Project`: Using a dataset containing audio features for the top 2,000 songs on Spotify, our team sought to identify patterns and group similar songs to inform marketing strategies, optimize playlist curation, and enhance audience engagement.
+  - `EDA.ipynb`: Jupyter notebook containing the exploratory data analysis performed on the dataset.
+  - `Data-Driven Insights for Music Personalization.pptx`: Final version of our presentation.
 
 ### How to Navigate
 - Each project is organised within its own folder.
 - Inside each project's folder you will find the project's documentation and data.
 
 ### Technologies Used
-- **Python**: For scripting and running data analysis tasks.
 - **Jupyter Notebooks**: For interactive data analysis and visualization.
-- **Pandas**: For data manipulation and analysis.
+- **Python**: Core language for scripting and automation.
+  - **Seaborn**: For statistical data visualization.
+  - **Matplotlib**: For creating static, animated, and interactive visualizations in Python.
+  - **Pandas**: For data manipulation and analysis.
+  - **NumPy**: For numerical computations.
+  - **Plotly Express**: For creating interactive visualizations.
+  - **Dash**: For building web applications and dashboards.
+    - **Dash Core Components (dcc)**: Provides interactive components like dropdowns, graphs, and sliders.
+    - **Dash HTML Components (html)**: Allows the use of HTML elements within Dash applications.
+    - **Dash Dependencies**: Manages interactivity and callbacks within Dash applications.
+  - **WordCloud**: For generating word cloud visualizations from text data.
+  - **Scikit-learn**: A machine learning library in Python.
+    - **StandardScaler**: For standardizing features by removing the mean and scaling to unit variance.
+    - **PCA (Principal Component Analysis)**: For dimensionality reduction by transforming features.
+    - **KMeans**: For clustering data into a predefined number of groups.
+    - **Feature Extraction (text)**: For converting text data into numerical data suitable for machine learning.
+  - **Threading**: For managing concurrent execution of tasks.
+  - **Webbrowser**: For opening web browsers and automating tasks involving web content.
 - **SQL**: For data acquisition.
-- (Update with any other technologies, libraries, or frameworks used.)
+- 
