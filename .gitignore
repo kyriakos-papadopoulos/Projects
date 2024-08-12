@@ -143,6 +143,7 @@ dmypy.json
 *.json
 *.xlsx
 *.xls
+*.pkl
 
 # macos
 *.DS_Store
