@@ -134,6 +134,10 @@ dmypy.json
 *.doc
 *.docx
 
+#images
+*.jpeg
+*.jpg
+
 # data
 *.csv
 *.json
