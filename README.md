@@ -14,9 +14,10 @@ This repository is organized as follows:
   - `Interactive Dashboard project`: Utilizing a dataset comprising patient data, including risk factors and lung cancer diagnoses, my team conducted an analysis to examine the relationship between these factors and lung cancer outcomes.
   - `Clustering Project`: Using a dataset containing audio features for the top 2,000 songs on Spotify, our team sought to identify patterns and group similar songs to inform marketing strategies, optimize playlist curation, and enhance audience engagement.
 - `API_Projects`: Container for API related projects.
-  - `Spotify`: 
+  - `Spotify`:
     - `Text_2_Playlist`: This program interacts with the Spotify Web API to create a playlist based on a sentence provided by the user. The program attempts to find songs whose titles match the words in the sentence. If a match is found, the song is added to a new Spotify playlist. If no match is found for a word, the program adds a placeholder track.
-  - `Reddit`: 
+  - `Reddit`:
+    - `Photography_Analysis`: WIP
 
 ### How to Navigate
 - Each project is organized within its own folder.
@@ -45,4 +46,12 @@ This repository is organized as follows:
   - **Spotipy**: For interacting with the Spotify Web API to search for tracks, manage playlists, and more.
   - **python-dotenv**: For loading environment variables from a `.env` file to securely manage API credentials.
   - **Re (Regular Expressions)**: For text processing and manipulating strings by pattern matching.
+  - **Praw**: For accessing and interacting with Reddit’s API to collect and analyze data.
+  - **Requests**: For sending HTTP requests and interacting with web services and APIs.
+  - **Pillow (PIL)**: For opening, manipulating, and saving image files in various formats.
+  - **BytesIO**: For handling binary data and working with in-memory streams.
+  - **Datetime**: For manipulating dates and times in Python.
+  - **OS**: For interacting with the operating system, including file and directory manipulation.
+  - **Hashlib**: For creating secure hash values (e.g., MD5, SHA-1) from data.
+  - **Time**: For time-related functions, such as pausing the execution of code or getting the current time.
 - **SQL**: For data acquisition.
