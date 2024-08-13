@@ -6,7 +6,10 @@ This Python program interacts with the Spotify Web API to create a playlist base
 
 - **API Interaction**: Utilizes the Spotify Web API to search for tracks and create playlists.
 - **Sentence to Playlist**: Converts a sentence into a playlist by searching for songs that match the words in the sentence.
-- **Contextual Search**: Attempts to find matches for up to four consecutive words in the sentence to increase the likelihood of finding relevant tracks.
+- **Contextual Search**: Attempts to find matches for up to six consecutive words in the sentence to increase the likelihood of finding relevant tracks.
+- **Dynamic Configuration**: Tries different configurations of word combinations to maximize the number of matched tracks.
+- **Optimal Matching**: Selects the configuration with the fewest unmatched words to create the most accurate playlist.
+- **Placeholder Track**: Adds a placeholder track when no exact match is found for a word or combination of words.
 - **Token Management**: Handles Spotify OAuth token retrieval and caching.
 
 ## Prerequisites
@@ -46,8 +49,10 @@ This Python program interacts with the Spotify Web API to create a playlist base
 
 3. **Program Workflow**:
     - The program will clean the sentence, removing any special characters.
-    - It will then attempt to find songs for each word or combination of words in the sentence.
-    - If no match is found, a placeholder track is added to the playlist.
+    - The program will attempt to find songs for each word or combination of words in the sentence, trying different configurations of up to six consecutive words.
+    - It will evaluate each configuration by counting the number of unmatched words, aiming to minimize unmatched words in the final playlist.
+    - If no exact match is found for a word or combination of words, a placeholder track is added to the playlist.
+    - The configuration with the fewest unmatched words is selected, and the playlist is created based on that configuration.
 
 4. **View Your Playlist**:
     - Once the program completes, you can view the playlist in your Spotify account.
