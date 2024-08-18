@@ -18,7 +18,7 @@ Before running this project, ensure that you have the following:
 
 - **Spotify Developer Account**: Needed to obtain your `SPOTIPY_CLIENT_ID`, `SPOTIPY_CLIENT_SECRET`, and `SPOTIPY_REDIRECT_URI`.
 - **Python 3.7+**: The project is developed using Python and requires version 3.7 or later.
-- **Spotify Data**: You need access to your Spotify streaming history files, typically named `StreamingHistory_music*.json`.
+- **Spotify Data**: You need access to your Spotify streaming history files, typically named `StreamingHistory_music*.json`. After receiving and downloading your data, add the path to your .env file as `EXPORT_PATH`.
 - **Spotipy Library**: For interacting with the Spotify API.
 
 ## Dependencies
@@ -70,6 +70,10 @@ The notebook performs the following steps:
    - Connects to Spotify using `spotipy` and OAuth for querying track information.
    - Retrieves track duration and Spotify IDs for each track in your history.
 
+2. **Playlist Exclusion**:
+   - Searches your library for specific playlists and collects the song IDs within.
+   - Filters the final dataframe to exclude these songs the grouping.
+
 3. **Playlist Creation**:
    - Groups your streaming history by month and year.
    - Creates a playlist for each month containing the top 20 tracks based on playtime.
@@ -96,7 +100,11 @@ This notebook generates the playlist covers with the following steps:
 ## Future Plans
 
 - **Automate Cover Upload**:
-   - The current API functionality does not support automatic cover uploads. In the future, the goal is to integrate this feature once it becomes available or find alternative methods.
+   - The current API functionality does not work with my cover generation process. In the future, the goal is to integrate this feature once it becomes available or find alternative methods.
+
+- **More segmentation options**:
+   - Instead of automatically grouping tracks by month, users will be able to choose alternative options such as weekly segments or seasonal groupings like summer, winter, etc. This enhancement will allow for even more personalized and meaningful playlist creation.
+
 
 ## Acknowledgements
 
