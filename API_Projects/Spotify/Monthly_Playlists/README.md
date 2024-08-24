@@ -131,21 +131,20 @@ Due to these reasons, the current script is set to work only with the **Extended
 - **More Segmentation Options**:
   - Instead of automatically grouping tracks by month, users will be able to choose alternative options such as weekly segments or seasonal groupings like summer, winter, etc. This enhancement will allow for even more personalized and diverse playlist creation.
 
-## Acknowledgements
-
+## License
+    
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+      
+## Acknowledgments
+    
+- [Spotify Web API](https://developer.spotify.com/documentation/web-api/)
+- [Spotipy Library](https://spotipy.readthedocs.io/)
 - **ChatGPT**: Assisted in developing the cover generation notebook.
 
-## Note
+## Notes
 
 For any changes or customizations:
 
 - You can modify the font used by changing the `font_path` variable in the `cover_generation.ipynb`.
 - The script currently defaults to using `paskowy.ttf` for generating playlist covers.
 
-## Running the Project
-
-To get started:
-
-1. Clone the repository to your local machine.
-2. Install the required Python packages listed in the dependencies section.
-3. Run the notebooks in the specified order.
