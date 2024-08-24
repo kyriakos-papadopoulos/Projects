@@ -10,7 +10,6 @@ This project automates the creation of monthly Spotify playlists based on your l
 - **Custom Cover Generation**: Creates unique, visually appealing covers for each playlist using radial gradient backgrounds with added noise texture.
 - **Dynamic Font Selection**: Automatically selects between black or white text for maximum contrast and readability.
 - **Color Uniqueness**: Ensures that no two playlist covers use similar colors, enhancing visual distinction.
-- **Data Persistence**: Intermediate data (like track information and streaming history) is saved to pickle files for easy re-use and modification.
 - **Playlist Exclusion**: Optionally excludes songs from specific playlists in your Spotify library from the analysis.
 
 ## Prerequisites
@@ -85,7 +84,8 @@ The notebook performs the following steps:
    - Creates a playlist for each month containing the top 20 tracks based on playtime.
 
 5. **Data Storage**:
-   - Saves various stages of data processing to pickle files for later use.
+   - Saves the final dataframe as a pickle file for use in the cover_generation notebook.
+
 
 ### cover_generation Notebook
 
@@ -133,7 +133,7 @@ Due to these reasons, the current script is set to work only with the **Extended
 
 ## Acknowledgements
 
-- **ChatGPT**: Assisted in developing the cover generation notebook and creating this README file.
+- **ChatGPT**: Assisted in developing the cover generation notebook.
 
 ## Note
 
