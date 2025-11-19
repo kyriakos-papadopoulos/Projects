@@ -1,7 +1,8 @@
-# Data Projects by Kyriakos Papadopoulos
+# Project Repository
 
 A collection of practical, end-to-end projects focused on analytics, automation, Python, and real-world problem solving.  
-This repository reflects my learning process, structured thinking, and interest in building useful tools as I work toward a data-related career.
+These projects reflect my curiosity, structured thinking, and the things I genuinely found fun or worth automating — from small utilities to larger data analysis workflows.
+
 
 ---
 
